@@ -7,10 +7,10 @@ Fraction = WhiteCount(Image);
 Fraction
 
 %%%%%%%
-[label,ObjectsCount] = CountObjects(Image);
+[label, ObjectsCount] = CountObjects(Image);
 ObjectsCount
 %%%%%%%%%%%%%
-[label,HolesCount] = CountHoles(complement);
+[label, HolesCount] = CountHoles(complement);
 HolesCount
 %%%%%%%%%%%%%%%
 
