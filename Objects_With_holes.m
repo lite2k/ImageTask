@@ -5,7 +5,8 @@ function [cols] = Objects_With_holes(Image)
     %[ label, owh_count ] = bwlabel(im);
 
     owh_im = regionprops(Image, 'EulerNumber');
-    owh_count = find([owh_im.EulerNumber] <= 0);
-    [rows cols] = size(owh_count);
-
+    owh_count = find([ owh_im.EulerNumber] <= 0);
+    [rows cols]=size(owh_count);
+   
+    
 end
